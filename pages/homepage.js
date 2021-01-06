@@ -12,7 +12,7 @@ export default function HomePage() {
           height={300}
         />
         <div className="logotext">
-          <h1>A System Monitoring Tool For Kafka.</h1>
+          <h1 id="subtext">A System Monitoring Tool For Kafka</h1>
         </div>
         <div className="btn">
           <Link href="https://github.com/oslabs-beta/KafKare">
