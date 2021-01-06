@@ -7,6 +7,11 @@ const NavBar = () => {
       <div className="navleft-container">
         <ul>
           <li className="navleft">
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+          </li>
+          <li className="navleft">
             <Link href="#section2">
               <a>Features</a>
             </Link>
@@ -14,11 +19,6 @@ const NavBar = () => {
           <li className="navleft team">
             <Link href="#section3">
               <a>Team</a>
-            </Link>
-          </li>
-          <li className="navleft">
-            <Link href="/">
-              <a>Home</a>
             </Link>
           </li>
         </ul>
