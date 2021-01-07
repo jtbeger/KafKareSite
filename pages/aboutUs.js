@@ -22,7 +22,8 @@ export default function AboutUs() {
           <h4 className="name">Jenniel Figuereo</h4>
           <h5 className="engineer">Software Engineer at KafKare</h5>
           <h6 className="bio">
-            Software Engineer at KafKare. Located in New York.
+            Software Engineer at KafKare. Interested in all things full stack.
+            Located in New York.
           </h6>
 
           <div className="contact">
@@ -145,7 +146,9 @@ export default function AboutUs() {
           <h4 className="name">Wai Fai Lau</h4>
           <h5 className="engineer">Software Engineer at KafKare</h5>
           <h6 className="bio">
-            Software Engineer at KafKare. Located in New York.
+            Full stack engineer with a passion for artificial intelligence and
+            data analytics. Also enjoys playing volleyball and board games.
+            Located in New York.
           </h6>
 
           <div className="contact">
