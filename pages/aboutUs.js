@@ -20,6 +20,10 @@ export default function AboutUs() {
             />
           </div>
           <h4 className="name">Jenniel Figuereo</h4>
+          <h5 className="engineer">Software Engineer at KafKare</h5>
+          <h6 className="bio">
+            Software Engineer at KafKare. Located in New York.
+          </h6>
 
           <div className="contact">
             <Link href="https://www.linkedin.com/in/jf1/">
@@ -54,10 +58,15 @@ export default function AboutUs() {
               height={200}
             />
           </div>
-          <h4 className="name">
-            Jiaxin Li
-            <i class="fab fa-linkedin"></i>
-          </h4>
+          <h4 className="name">Jiaxin Li</h4>
+          <h5 className="engineer">Software Engineer at KafKare</h5>
+          <div className="bio-container">
+            <h6 className="bio">
+              Experienced in developing full-stack JavaScript applications with
+              a passion for incorporating machine learning concepts to create
+              innovative solutions in software. Located in New York.
+            </h6>
+          </div>
 
           <div className="contact">
             <Link href="https://www.linkedin.com/in/lijiaxingogo/">
@@ -94,10 +103,10 @@ export default function AboutUs() {
             />
           </div>
           <h4 className="name">Joel Beger</h4>
-          <h5 className="engineer">Software Engineer</h5>
+          <h5 className="engineer">Software Engineer at KafKare</h5>
           <h6 className="bio">
-            Hi I'm Joel. I like turtles. I also like long walks on the beach.
-            Sometimes I wonder if there's a cat heaven. It makes me cry.
+            Full-stack engineer interested in creating efficient applications
+            with "user first" experience in mind. Located in Philadelphia, PA.
           </h6>
 
           <div className="contact">
@@ -134,6 +143,10 @@ export default function AboutUs() {
             />
           </div>
           <h4 className="name">Wai Fai Lau</h4>
+          <h5 className="engineer">Software Engineer at KafKare</h5>
+          <h6 className="bio">
+            Software Engineer at KafKare. Located in New York.
+          </h6>
 
           <div className="contact">
             <Link href="https://www.linkedin.com/in/wai-fai-lau/">

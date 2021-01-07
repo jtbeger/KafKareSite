@@ -27,7 +27,7 @@ const NavBar = () => {
         <Link href="https://github.com/oslabs-beta/KafKare">
           <a>
             <Image
-              className="test4"
+              className="octocat"
               src="/Octocat.png"
               alt="Github"
               width={40}
