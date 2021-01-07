@@ -16,8 +16,13 @@ const NavBar = () => {
               <a>Features</a>
             </Link>
           </li>
+          <li className="navleft">
+            <Link href="/#section3">
+              <a>Demo</a>
+            </Link>
+          </li>
           <li className="navleft team">
-            <Link href="#section3">
+            <Link href="#section4">
               <a>Team</a>
             </Link>
           </li>
