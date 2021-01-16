@@ -25,8 +25,13 @@ export default function Home() {
         <div className="features-container" id="section2">
           <Features />
         </div>
-        <div className="demo-container" id="section3">
-          <Demo />
+
+        <div
+          suppressHydrationWarning={true}
+          className="demo-container"
+          id="section3"
+        >
+          {process.browser && <Demo />}
         </div>
         <div className="about-container" id="section4">
           <AboutUs />
