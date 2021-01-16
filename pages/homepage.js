@@ -1,9 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function HomePage() {
   return (
     <>
+      <Head>
+        <meta
+          name="keywords"
+          content="Joel Beger, Wai Fai Lau, Jiaxin Li, Jenniel Figuereo, Kafka"
+        ></meta>
+      </Head>
       <div className="logo">
         <Image
           src="/kafk.png"

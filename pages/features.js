@@ -1,9 +1,15 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Features() {
   return (
     <>
+      <Head>
+        <meta
+          name="keywords"
+          content="Joel Beger, Wai Fai Lau, Jiaxin Li, Jenniel Figuereo, Kafka"
+        ></meta>
+      </Head>
       <div className="feature heading-container">
         <h1 className="heading">Features</h1>
       </div>

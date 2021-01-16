@@ -1,10 +1,16 @@
-import NavBar from '../components/NavBar';
+import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function AboutUs() {
   return (
     <>
+      <Head>
+        <meta
+          name="keywords"
+          content="Joel Beger, Wai Fai Lau, Jiaxin Li, Jenniel Figuereo, Kafka"
+        ></meta>
+      </Head>
       <div className="about heading-container">
         <h1 className="heading">Meet The Team</h1>
       </div>

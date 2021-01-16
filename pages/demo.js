@@ -1,8 +1,15 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function Demo() {
   return (
     <>
+      <Head>
+        <meta
+          name="keywords"
+          content="Joel Beger, Wai Fai Lau, Jiaxin Li, Jenniel Figuereo, Kafka"
+        ></meta>
+      </Head>
       <div className="heading-container">
         <h1 className="heading">Demo</h1>
       </div>

@@ -10,6 +10,13 @@ import Demo from './demo';
 export default function Home() {
   return (
     <div className="mainContainer">
+      <Head>
+        <title>Kafkare: Kafka monitoring made easy</title>
+        <meta
+          name="keywords"
+          content="Joel Beger, Wai Fai Lau, Jiaxin Li, Jenniel Figuereo, Kafka"
+        ></meta>
+      </Head>
       <NavBar />
       <div>
         <div className="homePage" id="section1">
