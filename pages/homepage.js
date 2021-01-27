@@ -10,6 +10,10 @@ export default function HomePage() {
           name="keywords"
           content="Joel Beger, Wai Fai Lau, Jiaxin Li, Jenniel Figuereo, Kafka"
         ></meta>
+        <meta
+          name="description"
+          content="Kafkare is a system monitoring tool brought to you by Joel Beger, Wai Fai Lau, Jiaxin Li, and Jenniel Figuereo"
+        ></meta>
       </Head>
       <div className="logo">
         <Image
