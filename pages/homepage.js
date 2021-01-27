@@ -17,6 +17,7 @@ export default function HomePage() {
           alt="Kafkare main logo"
           width={720}
           height={300}
+          loading="eager"
         />
         <div className="logotext">
           <h1 id="subtext">A System Monitoring Tool For Kafka</h1>
