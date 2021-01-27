@@ -26,6 +26,7 @@ export default function Demo() {
                 alt="login gif"
                 width={800}
                 height={494}
+                loading="eager"
               />
             </div>
           </div>
@@ -41,6 +42,7 @@ export default function Demo() {
                 alt="login gif"
                 width={800}
                 height={494}
+                loading="eager"
               />
             </div>
           </div>
@@ -55,6 +57,7 @@ export default function Demo() {
                 alt="drilldown gif"
                 width={800}
                 height={494}
+                loading="eager"
               />
             </div>
           </div>
