@@ -117,7 +117,6 @@ li {
   padding-bottom: 75px;
   max-width: 80%;
   font-size: 1.5rem;
-
   align-content: center;
 }
 
@@ -175,6 +174,8 @@ h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+
   color: black;
   border-radius: 10px;
   padding: 20px;
@@ -265,6 +266,7 @@ button:hover {
 #subtext {
   font-size: 2.165rem;
 }
+
 .bio-container {
   display: flex;
   text-align: center;
@@ -279,13 +281,14 @@ button:hover {
   justify-content: center;
   padding: 0 30px 0 30px;
 }
+
 .demo-body {
   color: black;
   display: flex;
 }
+
 .demo {
   display: flex;
-
   align-items: center;
   flex-direction: column;
   margin-bottom: 50px;
@@ -300,22 +303,21 @@ button:hover {
   width: 350px;
   height: 350px;
   margin: auto;
-
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .wrapper {
   display: flex;
   margin-top: 50px;
-
   min-width: 80%;
 }
 
 @media screen and (max-width: 700px) {
   .navbar {
     flex-direction: column;
-    height: 60px;
-    display: none;
+    height: 14vh;
+    display: flex;
   }
   .features-body {
     width: 100%;
